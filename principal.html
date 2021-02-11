@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+
+	<title>Alura Conferência</title>
+
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/sobre.css">
+	<link rel="stylesheet" type="text/css" href="css/palestrantes.css">
+	<link rel="stylesheet" type="text/css" href="css/dados.css">
+
+</head>
+
+<body>
+	<header class="header">
+		<nav class="menu-principal">
+			<ul>
+				<li class="menu-item"><a href="#painel-sobre">Sobre</a></li> 
+				<li class="menu-item"><a href="#painel-palestrantes">Palestrantes</a></li>
+			</ul>		
+		</nav>
+
+		<div class="destaque">
+			<section class="painel-principal">
+				<h1 class="titulo">ALURACONF</h1>
+				<h2 class="subtitulo">30MAIO|RIO</h2>
+			</section>
+
+			<section class="painel-inscricao">
+				<a href="#painel-dados" class="botao-inscrever">Inscreva-se</a>
+			</section>
+		</div>
+	</header>
+
+	<section id="painel-sobre" class="painel painel-sobre">
+		<div class="container">
+			<h3 class="cabecalho">Muito conteúdo: do frontend ao backend</h3>
+			<h4 class="local">30 de Maio de 2017 - na Cidade Maravilhosa</h4>
+
+			<div class="descricao-sobre">
+				<p>
+				Com a AluraConf abordaremos o que há de novidade e conhecimentos essenciais a um desenvolvedor mobile.
+				</p>
+				<p>
+				É uma grande chance de ficar por dentro dos assuntos de Android, iOS, Web mobile, desenvolvimento híbrido, UX, além da parte backend com Rest, Microservices, e Big Data. O desenvolvedor atualizado vai estar aqui.
+				</p>
+			</div>
+		</div>
+	</section>
+
+	<section id="painel-palestrantes" class="painel painel-palestrantes">
+		<div class="container">
+			<div class="sobre-palestrantes">
+				<h2 class="titulo">PALESTRANTES</h2>
+				<h3 class="subtitulo">Aprenda com palestrantes que são referência no mercado</h3>
+			</div>
+
+			<ul class="palestrantes">
+				<li class="palestrante">
+					<figure class="foto-palestrante">
+						<img class="imagem-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante">
+						<figcaption class="nome-palestrante">Nome Palestrante</figcaption>
+						<p class="bio-palestrante">Desenvolvedor e Consultor da Caelum</p>
+					</figure>
+					<p class="texto-palestrante">Aprenda tudo sobre Web de mercado</p>
+				</li> 
+				<li class="palestrante">
+					<figure class="foto-palestrante">
+						<img class="imagem-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante">
+						<figcaption class="nome-palestrante">Nome Palestrante</figcaption>
+						<p class="bio-palestrante">Desenvolvedor e Consultor da Caelum</p>
+					</figure>
+					<p class="texto-palestrante">Aprenda tudo sobre Web de mercado</p>
+				</li>
+				<li class="palestrante">
+					<figure class="foto-palestrante">
+						<img class="imagem-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante">
+						<figcaption class="nome-palestrante">Nome Palestrante</figcaption>
+						<p class="bio-palestrante">Desenvolvedor e Consultor da Caelum</p>
+					</figure>
+					<p class="texto-palestrante">Aprenda tudo sobre Web de mercado</p>
+				</li>
+				<li class="palestrante">
+					<figure class="foto-palestrante">
+						<img class="imagem-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante">
+						<figcaption class="nome-palestrante">Nome Palestrante</figcaption>
+						<p class="bio-palestrante">Desenvolvedor e Consultor da Caelum</p>
+					</figure>
+					<p class="texto-palestrante">Aprenda tudo sobre Web de mercado. A melhor forma de aprender on-line e se tornar um desenvolvedor competitivo no mercado. Irá aprender novas técnicas e as mais usadas nas empresas de tecnologia.</p>
+				</li>
+				<li class="palestrante">
+					<figure class="foto-palestrante">
+						<img class="imagem-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante">
+						<figcaption class="nome-palestrante">Nome Palestrante</figcaption>
+						<p class="bio-palestrante">Desenvolvedor e Consultor da Caelum</p>
+					</figure>
+					<p class="texto-palestrante">Aprenda tudo sobre Web de mercado</p>
+				</li>
+				<li class="palestrante">
+					<figure class="foto-palestrante">
+						<img class="imagem-palestrante" src="img/palestrantes/placeholder.jpeg" alt="Foto do palestrante">
+						<figcaption class="nome-palestrante">Nome Palestrante</figcaption>
+						<p class="bio-palestrante">Desenvolvedor e Consultor da Caelum</p>
+					</figure>
+					<p class="texto-palestrante">Aprenda tudo sobre Web de mercado</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+
+	<section id="painel-dados" class="painel painel-dados">
+		<div class="container">
+			<h2 class="titulo">Seus Dados</h2>
+
+			<form class="painel-formulario">
+				<div class="campo">
+					<label>Nome</label>
+					<input class="campo-input" type="text" name="Nome">
+				</div>
+				<div class="campo">
+					<label>E-mail</label>
+					<input class="campo-input" type="text" name="Email">
+				</div>
+			</form>
+
+			<div class="botao-form">
+				<button class="botao-inscrever">REALIZAR INSCRICÃO</button>
+			</div>
+		</div>
+	</section>
+
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+
+</body>
+
+</html>

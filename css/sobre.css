@@ -1,0 +1,20 @@
+.painel-sobre {
+	margin-top: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.painel-sobre .cabecalho {
+	font-size: 38px;
+	margin-bottom: 16px;
+}
+
+.painel-sobre .local {
+	font-size: 23px;
+	margin-bottom: 16px;
+}
+
+.painel-sobre .descricao-sobre {
+	font-size: 18px;
+	line-height: 35px;
+}

@@ -1,0 +1,14 @@
+.painel-dados {
+	margin-top: 40px;
+}
+
+.painel-dados .titulo {
+	font-size: 32px;
+	color: #EF7247;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.botao-form {
+	text-align: center;
+}

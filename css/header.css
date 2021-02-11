@@ -1,0 +1,90 @@
+.header {
+	background: url('../img/destaque.jpeg') no-repeat;
+	background-size: cover;
+	padding-top: 32px;
+}
+
+.header .menu-principal {
+	text-align: center;
+}
+
+.header .menu-principal .menu-item {
+	display: inline-block;
+	margin: 0 2px 32px 0;
+}
+
+.header .menu-principal .menu-item a {
+	color: white;
+	padding: 16px;
+	background: rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: background-color 0.8s;
+}
+
+.header .menu-principal .menu-item a:hover {
+	background-color: #48A3A6;
+}
+
+.header .destaque {
+	text-align: center;
+	padding: 0 0 44px 0;
+	text-transform: uppercase;
+}
+
+.header .painel-principal {
+	color: white;
+	text-shadow: 4px 4px 10px black;
+}
+
+.header .destaque .titulo {
+	font-size: 3em;
+}
+
+.header .destaque .subtitulo {
+	font-size: 2.6em;
+	color: #64FF64;
+	margin-top: 8px;
+}
+
+.header .destaque .botao-inscrever {
+	display: inline-block;
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	padding: 25px 50px;
+	background-color: #48A3A6;
+	border-radius: 10px;
+}
+
+.header .destaque .painel-inscricao {
+	margin-top: 28px;
+}
+
+@media(min-width: 650px) {
+	.header .destaque {
+		font-size: 28px;
+	}
+}
+
+.painel-sobre {
+	margin-top: 20px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.painel-sobre .cabecalho {
+	font-size: 38px;
+	margin-bottom: 16px;
+}
+
+.painel-sobre .local {
+	font-size: 23px;
+	margin-bottom: 16px;
+}
+
+.painel-sobre .descricao-sobre {
+	font-size: 18px;
+	line-height: 35px;
+}
